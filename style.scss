@@ -20,7 +20,7 @@ html {
 body {
 	background-image: url("https://developers.giphy.com/static/img/api.c99e353f761d.gif");
   font: 18px/1.4 $helvetica;
-  color: #DC143C;
+  color: #cc0000;
 }
 
 .container {
@@ -32,7 +32,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Times New Roman", Times, serif;;
-  color: #DC143C;
+  color: #cc0000;
   font-weight: bold;
 
   line-height: 1.7;
@@ -61,7 +61,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $gray;
+  color: #cc0000;
 }
 
 p {
@@ -286,6 +286,6 @@ background-color: $lightGray;
 
  //Settled on moving the import of syntax highlighting to the bottom of the CSS
  //... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the star
- @import "highlights"; }
+ @import "highlights"; 
  @import "svg-icons";
- }
+ 
