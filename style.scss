@@ -30,13 +30,6 @@ body {
   width: 100%;
 }
 
-#rcorners3 {
-    border-radius: 25px;
-    padding: 20px; 
-    width: 200px;
-    height: 150px; 
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-family: "Times New Roman", Times, serif;;
   color: #cc0000;
@@ -51,6 +44,12 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+#borderimg {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(border.png) 30 round;
+}
+	
 h1 {
   font-size: 30px;
   a {
